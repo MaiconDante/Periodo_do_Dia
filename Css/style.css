@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(87, 87, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font: normal 15pt;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+div#msg {
+    font-size: x-large;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.406);
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.413);
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+section > div > img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
