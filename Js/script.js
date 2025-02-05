@@ -1,21 +1,21 @@
-function carregarVariavel(){
+function carregar(){
     var msg = window.document.getElementById('msg');
     var img = window.document.getElementById('imagem');
     var data = new Date();
     var hora = data.getHours();
-    msg.innerHTML = (`<strong>Agora são ${hora} horas</strong>`)
+    msg.innerHTML = (`<strong>Agora está dentro de ${hora} horas</strong>`)
     if (hora >= 0 && hora < 12) {
-        // Bom dia
+        // Período Matutino
         img.src = './Assets/manha.jpg';
-        document.body.style.backgroundColor = "#0fecf869";
+        document.body.style.backgroundColor = "#13a1f2";
     } else if (hora >= 12 && hora < 18){
-        // Boa tarde
+        // Período Vespertino
         img.src = './Assets/tarde.jpg';
-        document.body.style.backgroundColor = "#99610cc2";
+        document.body.style.backgroundColor = "#b5711d";
     } else {
-        // Boa noite
+        // Período Noturno
         img.src = './Assets/noite.jpg';
-        document.body.style.backgroundColor = "#211e82c2";
+        document.body.style.backgroundColor = "#03389c";
     }
 }
 

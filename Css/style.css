@@ -10,15 +10,13 @@ body {
     background-color: rgb(87, 87, 255);
     font-family: 'Courier New', Courier, monospace;
     font: normal 15pt;
-
 }
 
 header {
     color: white;
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 div#msg {
@@ -47,11 +45,20 @@ section > div > img {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 5px;
     background-color: darkblue;
     color: white;
     text-align: center;
     font-style: italic;
+}
 
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: rgb(130, 197, 245);
+    text-decoration: underline;
 }
